@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css28.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>mini proje 1</title>
+    <style>
+        @media screen and (max-width:576px){
+    .col-xs-1{width: 8.33%;}
+    .col-xs-2{width: 16.66%;}
+    .col-xs-3{width: 25%;}
+    .col-xs-4{width: 33.33%;}
+    .col-xs-5{width: 41.66%;}
+    .col-xs-6{width: 50%;}
+    .col-xs-7{width: 58.33%;}
+    .col-xs-8{width: 66.66%;}
+    .col-xs-9{width: 75%;}
+    .col-xs-10{width: 83.33%;}
+    .col-xs-11{width: 91.33%;}
+    .col-xs-12{width: 100%;}
+ }
+
+ @media screen and (min-width:576px){
+    .col-sm-1{width: 8.33%;}
+    .col-sm-2{width: 16.66%;}
+    .col-sm-3{width: 25%;}
+    .col-sm-4{width: 33.33%;}
+    .col-sm-5{width: 41.66%;}
+    .col-sm-6{width: 50%;}
+    .col-sm-7{width: 58.33%;}
+    .col-sm-8{width: 66.66%;}
+    .col-sm-9{width: 75%;}
+    .col-sm-10{width: 83.33%;}
+    .col-sm-11{width: 91.33%;}
+    .col-sm-12{width: 100%;}
+ }
+
+ @media screen and (min-width:768px){
+    .col-md-1{width: 8.33%;}
+    .col-md-2{width: 16.66%;}
+    .col-md-3{width: 25%;}
+    .col-md-4{width: 33.33%;}
+    .col-md-5{width: 41.66%;}
+    .col-md-6{width: 50%;}
+    .col-md-7{width: 58.33%;}
+    .col-md-8{width: 66.66%;}
+    .col-md-9{width: 75%;}
+    .col-md-10{width: 83.33%;}
+    .col-md-11{width: 91.33%;}
+    .col-md-12{width: 100%;}
+ }
+
+ @media screen and (min-width:992px){
+    .col-lg-1{width: 8.33%;}
+    .col-lg-2{width: 16.66%;}
+    .col-lg-3{width: 25%;}
+    .col-lg-4{width: 33.33%;}
+    .col-lg-5{width: 41.66%;}
+    .col-lg-6{width: 50%;}
+    .col-lg-7{width: 58.33%;}
+    .col-lg-8{width: 66.66%;}
+    .col-lg-9{width: 75%;}
+    .col-lg-10{width: 83.33%;}
+    .col-lg-11{width: 91.33%;}
+    .col-lg-12{width: 100%;}
+ }
+
+ @media screen and (min-width:1200px){
+    .col-xl-1{width: 8.33%;}
+    .col-xl-2{width: 16.66%;}
+    .col-xl-3{width: 25%;}
+    .col-xl-4{width: 33.33%;}
+    .col-xl-5{width: 41.66%;}
+    .col-xl-6{width: 50%;}
+    .col-xl-7{width: 58.33%;}
+    .col-xl-8{width: 66.66%;}
+    .col-xl-9{width: 75%;}
+    .col-xl-10{width: 83.33%;}
+    .col-xl-11{width: 91.33%;}
+    .col-xl-12{width: 100%;}
+ }
+
+
+ 
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+[class ^="col-"]{float: right; padding:5px 5px;text-align: center;}
+
+body{
+    background-color: lightslategray;
+}
+
+
+.row::after{
+    content: "";
+    clear: both;
+    display: flow-root;
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+    padding: 5px 0;
+   
+}
+.rwdj2{
+    width: 100%;
+    height: 352px;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+.rwdj{
+    position: relative;
+    bottom: 50px;
+    width: 100%;
+    height: 339px;
+    border-top-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+.padi1{
+    padding: 15px 10px;
+}
+.padi2{
+    padding: 11px 13px;
+
+}
+.padi3{
+    padding: 11px 5px;
+}
+
+.boxsh1{
+    border-radius: 20px;
+    box-shadow:rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 20px 10px;
+    margin: 20px 5px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    transition:color .5s ease-in-out;   
+}
+li a:hover{
+    background-color: thistle;
+    color:teal;
+    border-radius: 18px;
+}
+
+.icon1{
+    float: left;
+    display: inline-block;
+    position: relative;
+    bottom: 69px;
+    font-size: 51px;
+}
+.header{
+    background-color: thistle;
+}
+.footer{
+    background-color: thistle; 
+    height: 200px;
+}
+.pf{
+    float: left;
+    padding: 11px 0px;
+}
+.icon2{
+    float: left;
+    padding: 11px 5px;
+}
+    </style>
+</head>
+<body>
+    <div class="container-fluid header">
+    <div class="container">
+        <ul>
+            <li><a href="#">صفحه اصلی</a></li>
+            <li><a href="#">حساب کاربری</a></li>
+            <li><a href="#">سبد خرید</a></li>
+            <li><a href="#">محصولات</a></li>
+        </ul>
+        <i class="fa-brands fa-linux icon1"></i>
+        <img class="rwdj" src="https://i.pinimg.com/736x/30/43/97/3043972e0b16fe4a69842a92bc058c33.jpg" alt="">
+    </div>
+</div>
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------------ -->
+
+    <div class="container">
+        <h2 class="padi3">HTML گودرتمند</h2>
+    <p class="padi3">زبانی گودرتمند فقط HTML</p>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                <div class="boxsh1">
+                    <img class="rwdj2" src="https://i.pinimg.com/736x/e0/0e/87/e00e878379894f543c072917610a66d5.jpg" alt="ops!!">
+                    <p class="padi2">its food time</p>
+                </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+            <div class="boxsh1">
+                <img class="rwdj2" src="https://i.pinimg.com/736x/0f/90/0d/0f900daf94869557de9ea432a28f8753.jpg" alt="ops!!">
+                <p class="padi2">Destruction fo penguin habital</p>
+            </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+        <div class="boxsh1">
+            <img class="rwdj2" src="https://i.pinimg.com/736x/68/77/31/6877310a04c05d7cd16b09dafbf05b39.jpg" alt="ops!!">
+            <p class="padi2">rest whit egg</p>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+        <div class="boxsh1">
+            <img class="rwdj2" src="https://i.pinimg.com/736x/96/5c/c3/965cc33d2a6e0d32723462692c0cdca7.jpg" alt="ops!!">
+            <p class="padi2">chek the status</p>
+        </div>
+    </div>
+    </div>
+    
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------------ -->
+
+
+<div class="container">
+    <h2 class="padi3">HTML گودرتمند</h2>
+<p class="padi3">زبانی گودرتمند فقط HTML</p>
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+            <div class="boxsh1">
+                <img class="rwdj2" src="https://i.pinimg.com/736x/e0/0e/87/e00e878379894f543c072917610a66d5.jpg" alt="ops!!">
+                <p class="padi2">its food time</p>
+            </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+        <div class="boxsh1">
+            <img class="rwdj2" src="https://i.pinimg.com/736x/0f/90/0d/0f900daf94869557de9ea432a28f8753.jpg" alt="ops!!">
+            <p class="padi2">Destruction fo penguin habital</p>
+        </div>
+</div>
+
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+    <div class="boxsh1">
+        <img class="rwdj2" src="https://i.pinimg.com/736x/68/77/31/6877310a04c05d7cd16b09dafbf05b39.jpg" alt="ops!!">
+        <p class="padi2">rest whit egg</p>
+    </div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+    <div class="boxsh1">
+        <img class="rwdj2" src="https://i.pinimg.com/736x/96/5c/c3/965cc33d2a6e0d32723462692c0cdca7.jpg" alt="ops!!">
+        <p class="padi2">chek the status</p>
+    </div>
+</div>
+</div>
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------------ -->
+
+
+        <div class="container">
+    <p class="padi3">ویژگی زبان گودرتمند HTML</p>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                <div class="boxsh1 padi1">مناسب <p><h4>تست نفوذ وامنیت</div>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+            <div class="boxsh1 padi1">مناسب<p><h4>بک اند</div>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+        <div class="boxsh1 padi1">گودرتمند<p><h4> تر از فلاتر</div>
+    </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+            <div class="boxsh1 padi1">زبانی<p><h4> سطح بالا</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="container-fluid footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <p class="pf">ALIREZA MASHAYEKHI</p>
+                
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <i class="fa-brands fa-centos icon2 icon2"></i>
+                <i class="fa-brands fa-fedora icon2 icon2"></i>
+                <i class="fa-brands fa-redhat icon2 icon2"></i>
+                </div>
+            </div>
+        </div>    
+    </body>
+</html>
