@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/notify/0.4.2/notify.min.js"></script>
+    <title>Document</title>
+    <style>
+        body{text-align: center;}
+        button{
+            position: relative;
+            margin: 66px;
+        }
+    </style>
+    
+</head>
+<body>
+    <button id="p1" onmouseover="mose()">click and waith a few seconds</button>
+
+    <script>
+        function mose(){
+    $.notify("welcom to website" , "success")
+    
+    $.get("https://api.ipify.org" , function(sendata){$("#p1").text("this is now your ip : " + sendata)})
+}
+    </script>
+</body>
+</html>
